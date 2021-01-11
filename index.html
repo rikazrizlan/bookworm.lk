@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <title>Plain Tees</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <div class="logo">
+                <i class="fas fa-tshirt"></i>
+                <h2>Plain Tees</h2>
+            </div>
+            
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">Clothing Store<br/>
+                <span>20% off on all products</span></h1>
+            <a href="#products" class="banner-btn">shop now</a>
+        </div>
+    </header>
+
+    <section class="products" id="products">
+        <div class="section-title">
+            <h2>Our Products</h2>
+        </div>
+        <div class="products-center">
+            <!--
+                products will be added here dynamically
+            -->
+        </div>
+    </section>
+
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>your cart</h2>
+            <div class="cart-content">
+                <!-- 
+                    cart content will be added here dynamically 
+                -->
+            </div>
+            <div class="cart-footer">
+                <h3>your total : $ <span class="cart-total">0</span></h3>
+                <a href="./checkout.html"><button class="clear-cart banner-btn">Checkout</button></a>
+            </div>
+        </div>
+    </div>
+
+    <section class="footer">
+        <h4 class="footer-text">Developed with love, <a href="">Rikaz</a> 2021.<br> Powered by Coffee <i class="fas fa-coffee"></i></h4>
+        <ul class="sci">
+            <li><a href="https://github.com/rikazrizlan"><i class="devicon-github-original"></i></a></li>
+            <li><a href="https://twitter.com/itsjustrikaz"><img src="./Images/twitter.png" alt=""></a></li>
+            <li><a href="https://www.linkedin.com/in/rikaz-rizlan-778401195/"><i class="devicon-linkedin-plain"></i></a></li>
+        </ul>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+</html>

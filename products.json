@@ -1,0 +1,68 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Short Sleeve Black",
+          "price": 10.99,
+          "image": { "fields": { "file": { "url": "./images/blacktshirt.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Short Sleeve Army Green",
+          "price": 12.99,
+          "image": { "fields": { "file": { "url": "./images/greentshirt.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Short Sleeve Red",
+          "price": 12.99,
+          "image": { "fields": { "file": { "url": "./images/redtshirt.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Short Sleeve Navy Blue",
+          "price": 22.99,
+          "image": { "fields": { "file": { "url": "./images/navybluetshirt.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Long Sleeve Grey",
+          "price": 88.99,
+          "image": { "fields": { "file": { "url": "./images/greylong.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "Long Sleeve Black",
+          "price": 32.99,
+          "image": { "fields": { "file": { "url": "./images/blacklong.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "Long Sleeve Blue",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/bluelong.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "Long Sleeve Red",
+          "price": 33.99,
+          "image": { "fields": { "file": { "url": "./images/redlong.jpg" } } }
+        }
+      }
+    ]
+  }
