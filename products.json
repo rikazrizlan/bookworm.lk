@@ -3,65 +3,64 @@
       {
         "sys": { "id": "1" },
         "fields": {
-          "title": "Short Sleeve Black",
-          "price": 10.99,
-          "image": { "fields": { "file": { "url": "./images/blacktshirt.jpg" } } }
+          "title": "Origin",
+          "author": "Dan Brown",
+          "price": 800,
+          "image": { "fields": { "file": { "url": "./images/origin.jpg" } } }
         }
       },
       {
         "sys": { "id": "2" },
         "fields": {
-          "title": "Short Sleeve Army Green",
-          "price": 12.99,
-          "image": { "fields": { "file": { "url": "./images/greentshirt.jpg" } } }
+          "title": "Kite Runner",
+          "author": "Dan Brown",
+          "price": 800,
+          "image": { "fields": { "file": { "url": "./images/kiterunner.jpg" } } }
         }
       },
       {
         "sys": { "id": "3" },
         "fields": {
-          "title": "Short Sleeve Red",
-          "price": 12.99,
-          "image": { "fields": { "file": { "url": "./images/redtshirt.jpg" } } }
+          "title": "All The Light We Cannot See",
+          "author": "Dan Brown",
+          "price": 800,
+          "image": { "fields": { "file": { "url": "./images/allthelight.jpg" } } }
         }
       },
       {
         "sys": { "id": "4" },
         "fields": {
-          "title": "Short Sleeve Navy Blue",
-          "price": 22.99,
-          "image": { "fields": { "file": { "url": "./images/navybluetshirt.jpg" } } }
+          "title": "The Alchemist",
+          "author": "Dan Brown",
+          "price": 800,
+          "image": { "fields": { "file": { "url": "./images/thealchemist.jpg" } } }
         }
       },
       {
         "sys": { "id": "5" },
         "fields": {
-          "title": "Long Sleeve Grey",
-          "price": 88.99,
-          "image": { "fields": { "file": { "url": "./images/greylong.jpg" } } }
+          "title": "ME Before You",
+          "author": "Dan Brown",
+          "price": 1000,
+          "image": { "fields": { "file": { "url": "./images/mebeforeyou.jpg" } } }
         }
       },
       {
         "sys": { "id": "6" },
         "fields": {
-          "title": "Long Sleeve Black",
-          "price": 32.99,
-          "image": { "fields": { "file": { "url": "./images/blacklong.jpg" } } }
+          "title": "The Saint the surfer and the ceo",
+          "author": "Dan Brown",
+          "price": 1000,
+          "image": { "fields": { "file": { "url": "./images/thesaint.jpg" } } }
         }
       },
       {
         "sys": { "id": "7" },
         "fields": {
-          "title": "Long Sleeve Blue",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/bluelong.jpg" } } }
-        }
-      },
-      {
-        "sys": { "id": "8" },
-        "fields": {
-          "title": "Long Sleeve Red",
-          "price": 33.99,
-          "image": { "fields": { "file": { "url": "./images/redlong.jpg" } } }
+          "title": "After the funeral",
+          "author": "Agatha Christie",
+          "price": 800,
+          "image": { "fields": { "file": { "url": "./images/afterthefuneral.jpg" } } }
         }
       }
     ]

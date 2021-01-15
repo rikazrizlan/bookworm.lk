@@ -51,12 +51,8 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    width: 140px;
+    width: 130px;
     justify-content: space-between;
-}
-
-.logo .fa-tshirt {
-    color: rgb(192, 77, 77);
 }
 
 .cart-btn {
@@ -76,7 +72,7 @@ body {
 
 .hero {
     min-height: calc(100vh - 60px);
-    background: url(./images/tshirts.jpg) center/cover no-repeat;
+    background: url(./images/bookstore.jpg) center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -159,12 +155,13 @@ body {
 .img-container {
     position: relative;
     overflow: hidden;
+    border-radius: 8px;
 }
 
 .bag-btn {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 10px;
+    left: 10px;
     background: var(--primaryColor);
     border: none;
     text-transform: uppercase;
@@ -187,7 +184,8 @@ body {
 .product-img {
     display: block;
     width: 100%;
-    min-height: 12rem;
+    max-height: 15rem;
+    object-fit: cover;
     transition: var(--mainTransition);
 }
 
@@ -204,6 +202,15 @@ body {
     letter-spacing: var(--mainSpacing);
     color: var(--primaryColor);
     text-align: center;
+}
+
+.product h5{
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    letter-spacing: var(--mainSpacing);
+    text-align: center;
+    color: rgb(80, 79, 79);
 }
 
 .cart-overlay {
@@ -263,6 +270,8 @@ body {
 .cart-item img {
     width: 75px;
     height: 75px;
+    object-fit: cover;
+
 }
 
 .cart-item h4 {
@@ -314,7 +323,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 20vh;
+    height: 22vh;
     background-color: var(--mainBlack);
 }
 .footer .sci {
@@ -355,3 +364,4 @@ body {
     text-decoration: none;
     margin-bottom: 5px;
 }
+
